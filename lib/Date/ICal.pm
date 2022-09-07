@@ -62,7 +62,7 @@ other date/calendar modules that know about ICal time format also.
 Rich Bowen, and the Reefknot team. Alas, Reefknot is no more. See
 http://datetime.perl.org/ for more modern and accurate modules.
 
-Last touched by $Author: rbowen $
+Last touched by $Author: michal-josef-spacek $
 
 =head1 METHODS
 
