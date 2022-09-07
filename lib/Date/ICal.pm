@@ -500,7 +500,7 @@ sub offset {
 =head2 add
 
     $self->add( year => 3, month => 2, week => 1, day => 12,
-                hour => 1, minute => 34, sec => 59 );
+                hour => 1, min => 34, sec => 59 );
     $date->add( duration => 'P1WT1H1M1S' ); # add 1 wk, 1 hr, 1 min, and 1 sec
 
 Adds a duration to a Date::ICal object.
@@ -512,7 +512,7 @@ hour, min, sec or seconds.
 
 If a value is undefined or omitted, 1 is assumed:
 
-    $ical->add( 'minute' ); # add a minute
+    $ical->add( 'min' ); # add a minute
 
 The result will be normalized. That is, the output time will have
 meaningful values, rather than being 48:73 pm on the 34th of 

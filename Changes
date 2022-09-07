@@ -1,3 +1,5 @@
+    * Fix doc in add() method.
+
 2011-05-10
 
     * Applies patch from Mark Alway for situation where min, hour, and
