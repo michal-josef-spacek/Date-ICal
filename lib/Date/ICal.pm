@@ -334,7 +334,7 @@ sub epoch {
 
         $epoch =
           timegm( $self->sec, $self->min, $self->hour, $self->day,
-          ( $self->month ) - 1, ( $self->year ) - 1900 );
+          ( $self->month ) - 1, $self->year );
     }
 
     return $epoch;

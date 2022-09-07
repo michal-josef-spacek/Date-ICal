@@ -1,3 +1,4 @@
+    * RT#124548: Fix year in timegm(), four digit number now.
     * Fix doc in add() method.
 
 2011-05-10
