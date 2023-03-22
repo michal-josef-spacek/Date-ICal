@@ -36,7 +36,8 @@ DESCRIPTION
 
 AUTHOR
     Rich Bowen, and the Reefknot team. Alas, Reefknot is no more. See
-    http://datetime.perl.org/ for more modern and accurate modules.
+    <https://github.com/houseabsolute/DateTime.pm/wiki> for more modern and
+    accurate modules.
 
     Last touched by $Author: michal-josef-spacek $
 
@@ -355,13 +356,12 @@ AUTHOR
 SEE ALSO
     datetime@perl.org mailing list
 
-    http://datetime.perl.org/
+    <https://github.com/houseabsolute/DateTime.pm/wiki>
 
     Time::Local
 
     Net::ICal
 
-------------------------------------------------
 NAME
     Date::ICal::Duration - durations in iCalendar format, for math purposes.
 
@@ -402,7 +402,8 @@ DESCRIPTION
 
 AUTHOR
     Rich Bowen, and the Reefknot team. Alas, Reefknot is no more. See
-    http://datetime.perl.org/ for more modern modules.
+    <https://github.com/houseabsolute/DateTime.pm/wiki> or
+    <https://metacpan.org/> for more modern modules.
 
     Last touched by $Author: rbowen $
 

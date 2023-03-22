@@ -60,7 +60,7 @@ other date/calendar modules that know about ICal time format also.
 =head1 AUTHOR
 
 Rich Bowen, and the Reefknot team. Alas, Reefknot is no more. See
-http://datetime.perl.org/ for more modern and accurate modules.
+L<https://github.com/houseabsolute/DateTime.pm/wiki> for more modern and accurate modules.
 
 Last touched by $Author: michal-josef-spacek $
 
@@ -1275,7 +1275,7 @@ list of patch contributors and version-by-version notes.
 
 datetime@perl.org mailing list
 
-http://datetime.perl.org/
+L<https://github.com/houseabsolute/DateTime.pm/wiki>
 
 Time::Local
 
