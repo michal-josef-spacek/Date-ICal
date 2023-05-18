@@ -16,6 +16,7 @@ Rich Bowen - RBOW@CPAN.ORG
 );
 
 WriteMakefile(
+  'ABSTRACT_FROM' => 'lib/Date/ICal.pm',
   'AUTHOR'       => 'Rich Bowen <rbow@cpan.org>',
   'NAME'         => 'Date::ICal',
   'LICENSE'      => 'perl',
