@@ -1,6 +1,9 @@
+use strict;
+use warnings;
+
 use ExtUtils::MakeMaker;
 
-print qq~
+print q(
 Please note that this module is long-since abandoned. While I do accept
 patches, and occasionally apply them, for the most part it is
 recommended that you move off of this module and use the various modules
@@ -8,21 +11,21 @@ developed by the datetime project. You can find out more about the
 datetime project at https://github.com/houseabsolute/DateTime.pm/wiki
 
 Rich Bowen - RBOW@CPAN.ORG
-~;
+);
 
 WriteMakefile(
   'NAME'         => 'Date::ICal',
   'LICENSE'      => 'perl',
   'VERSION_FROM' => 'lib/Date/ICal.pm',    # finds $VERSION
   'PREREQ_PM'    => {
-      Test::Harness => '2.25',
-      Test::More    => '0.45',
-      #     Test::Inline => 0,
-      Date::Leapyear => '1.03',
-      Time::Local    => 0,
-      Time::HiRes    => 0,
-      Storable       => 0,
-  },    # e.g., Module::Name => 1.1
+      'Test::Harness' => '2.25',
+      'Test::More'    => '0.45',
+      #     'Test::Inline' => 0,
+      'Date::Leapyear' => '1.03',
+      'Time::Local'    => 0,
+      'Time::HiRes'    => 0,
+      'Storable'       => 0,
+  },    # e.g., 'Module::Name' => 1.1
 );
 
 # Don't currently have any inline tests

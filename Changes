@@ -2,6 +2,7 @@
 
     * Add LICENSE AND COPYRIGHT section to doc.
     * Add missing license to Makefile.PL.
+    * Add use strict and warnings to Makefile.PL.
     * Add use warnings.
     * Unify version number in distribution.
 
