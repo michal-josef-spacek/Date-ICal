@@ -3,6 +3,8 @@ use warnings;
 
 use ExtUtils::MakeMaker;
 
+my $EUMM_VERSION = eval($ExtUtils::MakeMaker::VERSION);
+
 print q(
 Please note that this module is long-since abandoned. While I do accept
 patches, and occasionally apply them, for the most part it is
@@ -16,6 +18,7 @@ Rich Bowen - RBOW@CPAN.ORG
 WriteMakefile(
   'NAME'         => 'Date::ICal',
   'LICENSE'      => 'perl',
+  ($EUMM_VERSION >= 6.48) ? ('MIN_PERL_VERSION' => 5.006000) : (),
   'VERSION_FROM' => 'lib/Date/ICal.pm',    # finds $VERSION
   'PREREQ_PM'    => {
       'Test::Harness' => '2.25',
