@@ -1,5 +1,6 @@
 2023-05-18  skim
 
+    * Add author to Makefile.PL.
     * Add LICENSE AND COPYRIGHT section to doc.
     * Add minimal Perl version to Makefile.PL.
     * Add missing license to Makefile.PL.

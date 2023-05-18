@@ -16,6 +16,7 @@ Rich Bowen - RBOW@CPAN.ORG
 );
 
 WriteMakefile(
+  'AUTHOR'       => 'Rich Bowen <rbow@cpan.org>',
   'NAME'         => 'Date::ICal',
   'LICENSE'      => 'perl',
   ($EUMM_VERSION >= 6.48) ? ('MIN_PERL_VERSION' => 5.006000) : (),
