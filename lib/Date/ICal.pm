@@ -1,10 +1,10 @@
-# $Rev: 680 $
+# $Rev: 681 $
 package Date::ICal;
 use strict;
 use warnings;
 
 use vars qw($VERSION $localzone $localoffset @months @leapmonths %add_units);
-$VERSION = '2.'.(qw'$Rev: 680 $')[1];
+$VERSION = '2.'.(qw'$Rev: 681 $')[1];
 use Carp;
 use Time::Local;
 use Date::Leapyear qw();
@@ -27,7 +27,7 @@ Date::ICal - Perl extension for ICalendar date objects.
 
 =head1 VERSION
 
-$Revision: 680 $
+$Revision: 681 $
 
 =head1 SYNOPSIS
 
