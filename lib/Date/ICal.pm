@@ -18,6 +18,8 @@ $localoffset = _calc_local_offset();
 
 # Documentation {{{
 
+=encoding utf8
+
 =head1 NAME
 
 Date::ICal - Perl extension for ICalendar date objects.
@@ -1270,6 +1272,15 @@ Rich Bowen (DrBacchus) rbowen@rcbowen.com
 
 And the rest of the Reefknot team. See the source for a full
 list of patch contributors and version-by-version notes.
+
+=head1 LICENSE AND COPYRIGHT
+
+© 2001-2022 Rich Bowen
+
+© 2022-2023 Michal Josef Špaček
+
+This library is free software; you can redistribute it and/or
+modify it under the same terms as Perl itself.
 
 =head1 SEE ALSO
 
