@@ -367,7 +367,7 @@ NAME
     Date::ICal::Duration - durations in iCalendar format, for math purposes.
 
 VERSION
-    $Revision: 1.61 $
+    $Revision: 680 $
 
 SYNOPSIS
         use Date::ICal::Duration;

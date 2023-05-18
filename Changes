@@ -1,3 +1,7 @@
+2023-05-18  skim
+
+    * Unify version number in distribution.
+
 2023-04-04  skim
 
     * RT#147274: Fix link to datetime project (http://datetime.perl.org is dead).
