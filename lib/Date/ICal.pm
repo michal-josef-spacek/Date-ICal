@@ -1,6 +1,7 @@
 # $Rev: 680 $
 package Date::ICal;
 use strict;
+use warnings;
 
 use vars qw($VERSION $localzone $localoffset @months @leapmonths %add_units);
 $VERSION = '2.'.(qw'$Rev: 680 $')[1];

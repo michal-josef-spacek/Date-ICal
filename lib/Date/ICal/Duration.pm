@@ -1,6 +1,7 @@
 package Date::ICal::Duration;
 
 use strict;
+use warnings;
 use Carp;
 
 use vars qw($VERSION );
