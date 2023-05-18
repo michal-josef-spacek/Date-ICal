@@ -12,6 +12,7 @@ Rich Bowen - RBOW@CPAN.ORG
 
 WriteMakefile(
   'NAME'         => 'Date::ICal',
+  'LICENSE'      => 'perl',
   'VERSION_FROM' => 'lib/Date/ICal.pm',    # finds $VERSION
   'PREREQ_PM'    => {
       Test::Harness => '2.25',
