@@ -38,7 +38,7 @@ WriteMakefile(
 sub MY::postamble {
     package MY;
     "\npredist: all\n" .
-    "\tpod2text lib/Date/ICal.pm >! README\n".
+    "\tpod2text lib/Date/ICal.pm > README\n".
     "\techo '------------------------------------------------' >> README\n".
     "\tpod2text lib/Date/ICal/Duration.pm >> README\n"
 }
