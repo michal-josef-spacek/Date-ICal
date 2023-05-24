@@ -5,4 +5,5 @@ pm_to_blib
 MANIFEST.bak
 MYMETA.json
 MYMETA.yml
+META.*
 cover_db/
