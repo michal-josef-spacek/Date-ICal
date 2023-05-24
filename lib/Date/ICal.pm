@@ -1289,9 +1289,9 @@ datetime@perl.org mailing list
 
 L<https://github.com/houseabsolute/DateTime.pm/wiki>
 
-Time::Local
+L<Time::Local>
 
-Net::ICal
+L<Net::ICal>
 
 =cut
 

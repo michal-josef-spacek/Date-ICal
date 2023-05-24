@@ -1,3 +1,5 @@
+    * Add L<> in doc to SEE ALSO modules.
+
 2023-05-18  skim
 
     * Add abstract to Makefile.PL.
