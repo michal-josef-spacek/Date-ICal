@@ -2,7 +2,7 @@ NAME
     Date::ICal - Perl extension for ICalendar date objects.
 
 VERSION
-    $Revision: 681 $
+    $Revision: 682 $
 
 SYNOPSIS
         use Date::ICal;
@@ -375,7 +375,7 @@ NAME
     Date::ICal::Duration - durations in iCalendar format, for math purposes.
 
 VERSION
-    $Revision: 681 $
+    $Revision: 682 $
 
 SYNOPSIS
         use Date::ICal::Duration;
