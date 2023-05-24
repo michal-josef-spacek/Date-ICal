@@ -21,6 +21,19 @@ WriteMakefile(
       'Time::HiRes'    => 0,
       'Storable'       => 0,
   },    # e.g., 'Module::Name' => 1.1
+  META_MERGE => {
+      'meta-spec' => { version => 2 },
+       resources => {
+           repository => {
+               type => 'git',
+               url  => 'https://github.com/michal-josef-spacek/Date-ICal.git',
+               web  => 'https://github.com/michal-josef-spacek/Date-ICal',
+           },
+           bugtracker => {
+               web => 'https://github.com/michal-josef-spacek/Date-ICal/issues'
+           },
+       },
+  },
 );
 
 # Don't currently have any inline tests
