@@ -15,12 +15,11 @@ WriteMakefile(
   'PREREQ_PM'    => {
       'Test::Harness' => '2.25',
       'Test::More'    => '0.45',
-      #     'Test::Inline' => 0,
       'Date::Leapyear' => '1.03',
       'Time::Local'    => 0,
       'Time::HiRes'    => 0,
       'Storable'       => 0,
-  },    # e.g., 'Module::Name' => 1.1
+  },
   META_MERGE => {
       'meta-spec' => { version => 2 },
        resources => {
@@ -35,15 +34,6 @@ WriteMakefile(
        },
   },
 );
-
-# Don't currently have any inline tests
-# open(MANIFEST, "MANIFEST");
-# foreach my $file (grep /\.pm$/, <MANIFEST>) {
-#    chomp $file;
-#    my($module) = $file =~ m|^(.*)\.pm$|;
-#    $module =~ s|/|-|g;
-#    system("pod2test $file t/embedded-$module.t");
-#}
 
 sub MY::postamble {
     package MY;

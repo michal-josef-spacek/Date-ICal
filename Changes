@@ -1,4 +1,5 @@
     * Add L<> in doc to SEE ALSO modules.
+    * Cleanup of distribution infrastructure.
     * Remove warning message about deprecation of module.
 
 2023-05-18  skim
