@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 
 use vars qw($VERSION );
-$VERSION = '2.'.(qw'$Rev: 682 $')[1];
+$VERSION = '2.'.(qw'$Rev: 683 $')[1];
 
 # Documentation {{{
 
@@ -17,7 +17,7 @@ Date::ICal::Duration - durations in iCalendar format, for math purposes.
 
 =head1 VERSION
 
-$Revision: 682 $
+$Revision: 683 $
 
 =head1 SYNOPSIS
 
