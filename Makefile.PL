@@ -5,16 +5,6 @@ use ExtUtils::MakeMaker;
 
 my $EUMM_VERSION = eval($ExtUtils::MakeMaker::VERSION);
 
-print q(
-Please note that this module is long-since abandoned. While I do accept
-patches, and occasionally apply them, for the most part it is
-recommended that you move off of this module and use the various modules
-developed by the datetime project. You can find out more about the
-datetime project at https://github.com/houseabsolute/DateTime.pm/wiki
-
-Rich Bowen - RBOW@CPAN.ORG
-);
-
 WriteMakefile(
   'ABSTRACT_FROM' => 'lib/Date/ICal.pm',
   'AUTHOR'       => 'Rich Bowen <rbow@cpan.org>',
